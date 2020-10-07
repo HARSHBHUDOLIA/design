@@ -1,0 +1,54 @@
+.divstyle{
+    width:400px;
+    height:200px;
+    float: left;
+}
+
+#one{
+    background:olive
+}
+
+#two{
+    background:red
+}
+
+#three{
+    background:green
+}
+
+#four{
+    background:black
+}
+
+#five{
+    background:gray
+}
+#six{
+    background:orange
+}
+
+@media screen and (min-width:500px){
+    .divstyle{ width:100%}
+    
+}
+
+@media screen and (min-width:800px){
+    .divstyle{ width:50%}
+    body{
+        background:skyblue
+    }
+}
+
+@media screen and (min-width:1000px){
+    .divstyle{ width:33%}
+    body{
+        background:limegreen
+    }
+}
+
+@media screen and (min-width:1200px){
+    .divstyle{ width:25%}
+    body{
+        background:violet
+    }
+}
